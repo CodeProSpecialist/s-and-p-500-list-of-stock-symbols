@@ -73,10 +73,6 @@ curl -sS https://raw.githubusercontent.com/datasets/s-and-p-500-companies/main/d
   | tail -n +2 | cut -d, -f1 | sed 's/\./-/' > s-and-p-500-stock-symbols-list.txt
 ```
 
-Cross-check against the Wikipedia
-[List of S&P 500 companies](https://en.wikipedia.org/wiki/List_of_S%26P_500_companies)
-page, which tracks additions and removals as S&P announces them.
-
 ## Notes
 
 This list is provided for convenience and may lag official S&P Dow Jones Indices
