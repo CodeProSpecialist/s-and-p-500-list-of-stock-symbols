@@ -16,7 +16,7 @@ BRK-B
 BF-B
 ```
 
-This is the Yahoo Finance / `yfinance` convention. If your broker API expects dots
+This is the `yfinance` convention. If your broker API expects dots
 (Alpaca, for example, uses `BRK.B`), convert on load:
 
 ```python
